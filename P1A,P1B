@@ -5,7 +5,13 @@ public class plus
       int c = 11;
       System.out.println(Math.pow(b,2);
       System.out.println(4*a*c);
-      Math.sqrt(Math.pow(b,2) - (4*a*c));
-      
+      double deter = Math.pow(b,2) - (4*a*c);
+        if(deter < 0){
+            "System.put.println("Imaginary roots cannot be calculated");
+        }else{
+            double sqrt = Math.sqrt(deter);
+            double roots = sqrt / (2*a);
+            System.out.println("The roots are +- " + roots);
+        }
     }
   }
