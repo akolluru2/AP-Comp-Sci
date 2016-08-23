@@ -1,0 +1,11 @@
+public class plus    
+    public static main(String[]args){
+      int a = 3;
+      int b = 6;
+      int c = 11;
+      System.out.println(Math.pow(b,2);
+      System.out.println(4*a*c);
+      Math.sqrt(Math.pow(b,2) - (4*a*c));
+      
+    }
+  }
