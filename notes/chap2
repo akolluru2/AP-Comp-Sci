@@ -46,3 +46,7 @@ some might require multiple parameters while other might require no parameters
 some methods might return a value like the .lenght() method but some might not return anything back to the user and just do some
 calculations for that object
 to declare a mthod it needs to know the return type necessary and what parameters it needs to do calclulations
+
+Class notes:
+to create a new object use a default constructor
+an argument is  inputs necessary for methods
