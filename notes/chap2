@@ -1,0 +1,48 @@
+2.1:
+types are a type of concept that can hold data, some types are ints and doubles and floats etc. 
+floating point #s depend ont he postion of the decimal point. they change according to the decimal point which "floats" or moves around
+as processes are made on it.
+to use integers double precision floating point #s are used as they are more accurate and act like a calculator and round instead of
+having floating point #s
+numbers should never have commas in them and if need to should be written as xEy; where x and y are numbers
+integeers are better compared to doubles as they are faster and easier to use and run
+inegers and doubles are primitive types and are not objects therefore dont have nay methods associated with them.
++ - * / can still be used but that is all
+
+2.2:
+variables are a storage place that hold name location and its set data, these allow you to use variables to change them as the program
+is running depending on other factors
+variables can be used in place of values that they store 
+i.e num if defined to 3 can be used for num + num as it means 3 + 3
+Strings are used for words
+chars for letters
+ints for whole numbers
+and doubles for any real number
+variable names should concisely describe the reason for the variable
+strict rules apply when choosing names like reserved words and special character and usage of a number in the first term
+method names should use cammel camel case to be written as it is convention likeThis
+class names should start with an uppercase letter like This
+$symbol is only used for auto generated names and not man made ones
+
+2.3:
+the assignment operator = assigns a value to a variable so nums = 5 would set nums to 5
+its an error to use a varaoble before it has been assigned and will not compile
+assign values to variable before used
+
+2.4:
+an object is a value that you can manipulate by calling one or more of its methods
+a method is a sequence of insructions telling it wat to do to an object or its variables
+for example system.out is an object manipulated by the println method
+objects can also let u get data like its length and other parameters it might hold these methods are called getters and are often
+very useful
+some objects can refer to multiple methods like the println method which can either print a set fata into the console or return the
+data as integers, this kinds of a method is called overloaded as it has more than one return type
+
+2.5:
+methods are the building blocks of any program as a program only performs if its methods work properly
+most methods need inputs that go into the () of the method, for example the println method takes data types as an input to
+print onto the console
+some might require multiple parameters while other might require no parameters
+some methods might return a value like the .lenght() method but some might not return anything back to the user and just do some
+calculations for that object
+to declare a mthod it needs to know the return type necessary and what parameters it needs to do calclulations
