@@ -6,10 +6,12 @@ public class Coin {
 		int numDime = 0;
 		int numNickel = 0;
 		int numPenny = 0;
+		System.out.println("How many cents do you have?");
 		Scanner input = new Scanner(System.in);
 		int change = input.nextInt();
 		int change1 = change;
 		ArrayList <String> pos = new ArrayList<String>();
+		System.out.println("These are your possiblilties");
 		for(int i = 0; i < change1+1; i++){
 			change = change1;
 			numQuart = 0;
@@ -54,3 +56,6 @@ public class Coin {
 		}
 		//System.out.println(pos);
 	}
+}
+
+
