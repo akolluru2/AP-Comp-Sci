@@ -7,9 +7,9 @@ public class names {
 		String [] lName = {"Jackman", "Kincaid", "Lacy"};
 		ArrayList<String> allName = new ArrayList<String>();
 		for(int i = 0; i < fName.length; i++){
-			for(int j = 0; j < fName.length; j++){
-				for(int k = 0; k < fName.length; k++){
-					allName.add(fName[i]+" "+mName[j]+" "+lName[i]);
+			for(int j = 0; j < mName.length; j++){
+				for(int k = 0; k < lName.length; k++){
+					allName.add(fName[i]+" "+mName[j]+" "+lName[k]);
 				}
 			}
 		}
