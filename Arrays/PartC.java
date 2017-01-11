@@ -14,6 +14,12 @@ pubic class Array{
 		names[7] = fName[(int)(Math.random()*5)]+" "+mName[(int)(Math.random()*4)]+" "+lName[(int)(Math.random()*3)];
 		names[8] = fName[(int)(Math.random()*5)]+" "+mName[(int)(Math.random()*4)]+" "+lName[(int)(Math.random()*3)];
 		names[9] = fName[(int)(Math.random()*5)]+" "+mName[(int)(Math.random()*4)]+" "+lName[(int)(Math.random()*3)];
-    
+    for(int i = 0; i< names.length; i++){
+			for(int j = i; j<names.length; j++){
+				if(names[i].equals(names[j])){
+					names[j] = fName[(int)(Math.random()*5)]+" "+mName[(int)(Math.random()*4)]+" "+lName[(int)(Math.random()*3)];	
+				}
+			}
+		}
   }
 }
