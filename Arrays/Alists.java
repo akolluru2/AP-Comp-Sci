@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 public class Alists {
 	public static void main(String[]args){
+		// 15.2*********************************************************
 		/*ArrayList<Integer> nums = new ArrayList<Integer>();
 		ArrayList<Integer> rands = new ArrayList<Integer>();
 		int a = 0;
@@ -22,7 +23,9 @@ public class Alists {
 			rands.clear();
 			a++;
 		}*/
-		//ArrayList<Integer> nums = new ArrayList<Integer>();
+		
+		// 15.3*******************************************************
+		/*ArrayList<Integer> nums = new ArrayList<Integer>();
 		try{
 		Scanner in = new Scanner(new FileReader(new File("numbers.txt")));
 		Scanner input = new Scanner(new FileReader(new File("numbers.txt")));
@@ -30,7 +33,9 @@ public class Alists {
 		int sum = 0;
 		int counter = 0;
 		while(in.hasNextInt()){
-			sum = sum + in.nextInt();
+			int randNum = in.nextInt();
+			nums.add(randNum);
+			sum = sum + randNum;
 			counter++;
 			//System.out.print("!");
 		}
@@ -48,8 +53,10 @@ public class Alists {
 		int deviation =(int) (Math.sqrt(sum/(counter-1)));
 		System.out.println(avg);
 		System.out.println(deviation);
+			
+		//things
 		}catch(IOException e){
 			e.printStackTrace();
-		}
+		}*/
 	}
 }
