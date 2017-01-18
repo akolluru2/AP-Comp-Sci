@@ -55,6 +55,20 @@ public class Alists {
 		System.out.println(deviation);
 			
 		//things
+		int maxCount = 0;
+		for (int i = 0; i < nums.size(); i++) {
+			int value = nums.get(i);
+			int count = 1;
+			for (int j = 0; j < nums.size(); j++) {
+			    if (numes.get(j) == value)
+				count++;
+			    if (count > maxCount) {
+				mode = value;
+				maxCount = count;
+			    }
+			}
+		}
+		System.out.println(mode);
 		}catch(IOException e){
 			e.printStackTrace();
 		}*/
