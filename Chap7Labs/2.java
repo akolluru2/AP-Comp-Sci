@@ -14,7 +14,7 @@ public class ArrayListRunner{
       Systen.out.println(names.get(i));
     }
     names.set(Alice, Alice B. Toklas);
-    names.add(Doug, 3);
+    names.add(Doug, 4);
     for(String name : names){
       System.out.println(name);
     }
