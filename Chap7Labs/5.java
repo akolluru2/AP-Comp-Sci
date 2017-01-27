@@ -1,0 +1,7 @@
+/*
+a.the array list object only uses objects and not primal types
+b.same as a but also missing the a type indicator in the last part of the declaration.
+c.missing paranthesis at the end of declaration
+d.i is not defined
+e.values is not defined properly
+*/
