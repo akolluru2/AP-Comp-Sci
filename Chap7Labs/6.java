@@ -30,5 +30,34 @@ public class ArrayMethods{
       }
     }
   }
+  public void checkNeighbor(){
+    for(int i = 0; i < values.length; i++){
+      if(i = values.length-1){
+      }else if(i = 0){
+      }else{
+        if(values[i-1] > values[i+1]){
+          values[i] = values[i-1];
+        }else if(values[i-1] < values[i+1]){
+          values[i] = values[i+1];
+        }else{
+          values[i] = values[i+1];
+        }
+      }
+    }
+  }
+  public void sortEven(){
+    int reorg = new int[values.length]; 
+    int even = 0;
+    int odd = vaues.length-1;
+    for(int i = 0; i <values.length; i++){
+      if(values[i]%2==0){
+        reorg[even] = values[i];
+        even++;
+      }else if(values[i]%2==1){
+        reorg[odd] = vaues[i];
+        odd--;
+      }
+    }
+  }
   
 }
