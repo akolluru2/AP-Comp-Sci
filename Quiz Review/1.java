@@ -20,14 +20,17 @@ public class Array {
 		return tosses;
 	}
 	public static int getLongestRun(int[] values){
-		ArrayList<Integer> nums = new ArrayList<Integer>();
+		int current = -1;
+		int previous = -1;
+		int index = -1;
 		for(int i = 0; i < values.length-1; i++){
 			if(values[i] == values[i+1]){
-				nums.add(values[i]);
+				current++;
+			}else if(values[i]!=values[i+1] && previous < current){
+				previous = current;
+				current = 0;
+				index = i-previous;
 			}
-		}
-		for(int i = 0; i < nums.siz(); i++){
-			
 		}
 	}
 }
