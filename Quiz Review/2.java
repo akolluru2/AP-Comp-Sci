@@ -15,3 +15,14 @@ private ArrayList<String> words = new ArrayList<String>();
     }
     return word;
 }
+//***********************************************************************
+import java.util.ArrayList;
+private ArrayList<String> letters = new ArrayList<String>()
+public calss RandomLetterChooser{
+  public RandomLetterChooser(String word){
+    for(int i = 0; i < word.length; ;i++){
+      letter.add(word.indexOf(i));
+    }
+  }
+}
+    
