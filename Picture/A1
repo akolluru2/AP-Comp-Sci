@@ -1,0 +1,17 @@
+/* Assignment 1
+1) 8bits
+2) 3bytes
+3)640*480
+Assignment 2
+255,0,255  FF00FF
+255,255,0  FFFF00
+152,86,255 9856FF
+255,255,255 FFFFFF
+138,138,138 8A8A8A
+Assignment 3
+0
+0
+640
+480
+left to right
+top to bottom
