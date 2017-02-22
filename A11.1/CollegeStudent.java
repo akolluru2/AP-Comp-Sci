@@ -1,36 +1,36 @@
-public class Student extends Person{
-  private String myIdNum; // Student Id Number
-  private double myGPA; // grade point average
+public class CollegeStudent extends Student{
+  private String Major;
+  private int Year;
 
   // constructor
-  public Student(String name, int age, String gender,
-            String idNum, double gpa){
+  public CollegeStudent(String name, int age, String gender,
+            String idNum, double gpa, int year, String major){
     // use the super class' constructor
-    super(name, age, gender);
+    super(name, age, gender, idNum, gpa);
 
     // initialize what's new to Student
-    myIdNum = idNum;
-    myGPA = gpa;
+    Major = major;
+    Year = year;
   }
 
-  public String getIdNum(){
-    return myIdNum;
+  public String getMajor(){
+    return Major;
   }
 
-  public double getGPA(){
-    return myGPA;
+  public int getYear(){
+    return Year;
   }
 
-  public void setIdNum(String idNum){
-    myIdNum = idNum;
+  public void setMajor(String major){
+    Major = major;
   }
 
-  public void setGPA(double gpa){
-    myGPA = gpa;
+  public void setYear(int year){
+    Year = year;
   }
 
   // overrides the toString method in the parent class
   public String toString(){
-    return super.toString() + ", student id: " + myIdNum + ", gpa: " + myGPA;
+    return super.toString() + ", Major: " + Major + ", Year: " + Year;
   }
 }
