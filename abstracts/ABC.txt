@@ -1,0 +1,1 @@
+The code in ABC uses the main class A which has all the methods and resources needed for the rest of the classes. Classes B and C implement these classes by extending A. Both B and C also super the input they are given so it overrides the method or input value given to A. This allows A, B, and C to all be the same class by not writing the same thing over and over again.
