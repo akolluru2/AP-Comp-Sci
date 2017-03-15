@@ -1,0 +1,24 @@
+a deck is a group of cards that can hold more than one card at a time.
+6
+ranks[] = {"2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace"};
+suits[] = {"Clubs","Hearts","Spades","Diamonds"};
+pointValues = {2,3,4,5,6,7,8,9,10,10,10,10,11};
+the order of ranks and pointValues matters
+----------------------------------------------------------------------------------
+int random = (int)((Math.random()*2)+1);
+if(random == 1){
+  return false;
+}else{
+  return true
+}
+
+public boolean isPermutations(int[] array, int[] array1){
+  for(int i = 0; i < array.length; i++){
+    for(int j = 0; j < array1.length; j++){
+      if(array[i] == array1[j]){
+        return true;
+      }else{
+        retun false;
+      }
+    }
+  }
